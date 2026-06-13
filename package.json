@@ -1,0 +1,15 @@
+{
+  "name": "@sulthonzh/codeowners",
+  "version": "1.0.0",
+  "description": "Zero-dep GitHub CODEOWNERS parser, validator, and path matcher",
+  "main": "src/index.js",
+  "bin": {
+    "codeowners": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": ["codeowners", "github", "owners", "review", "ci"],
+  "license": "MIT",
+  "author": "sulthonzh"
+}
